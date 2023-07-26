@@ -1,0 +1,16 @@
+body{background: linear-gradient(rgb(0, 162, 255),rgb(132, 0, 255));font-family: cursive !important;color: aqua !important;}
+button{background: linear-gradient(rgb(0,162,255),rgb(132,0,255));}
+#mostrar{float:right; top: 20px ;position: absolute; right: 0px;}
+canvas{background-color: white; border-radius: 10px;
+  animation-name: animacion;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes animacion{
+    from{
+        box-shadow: 5px 5px 0px rgb(255, 94, 0);
+    }
+    to{
+        box-shadow: 100px 100px 800px rgb(255, 234, 0);
+    }
+}
